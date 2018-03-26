@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-django"
-  gem.version       = "1.0.1"
+  gem.version       = "1.0.3"
   gem.authors       = ["Kinesis Pty Ltd"]
   gem.email         = ["devs@kinesis.org"]
   gem.description   = %q{Django specific Capistrano tasks}
