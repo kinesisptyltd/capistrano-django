@@ -5,7 +5,7 @@ namespace :pip do
   task :install do
     on roles(:all) do
       within release_path do
-        execute fetch(:pip), :install, "-r", "requirements.txt", "--exists-action", "wipe"
+        execute fetch(:pip), :install, "-r", "requirements.txt", "--exists-action", "w", "--no-input"
       end
     end
   end
